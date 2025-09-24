@@ -34,3 +34,57 @@ This project is built as part of a **Final Assignment** to showcase skills in **
 ---
 
 ## 📂 Project Structure
+## 📂 Project Structure
+text2pot-ai/
+│
+├─ index.html # Home page
+├─ about.html # About the project
+├─ meal-planner.html # AI Meal Planner
+├─ gallery.html # Gallery of healthy meals
+├─ pricing.html # Monetization & premium plans
+├─ contact.html # Contact page
+├─ login.html # User login page
+│
+├─ css/
+│ └─ style.css # Main styling and responsive rules
+│
+├─ js/
+│ └─ main.js # Interactive features and AI placeholder logic
+│
+└─ images/ # Images used across pages
+
+Open the project folder and simply double-click index.html to open in your browser.
+
+🌐 Deployment
+
+You can host the project for free:
+
+GitHub Pages
+
+Netlify
+
+Vercel
+
+After deployment, ensure:
+
+All links work on mobile & desktop
+
+Pages are fully responsive
+
+💰 Monetization Ideas
+
+Premium Subscription: Personalized weekly meal plans
+
+Donations: Allow users to support development
+
+Affiliate Links: Partner with local food vendors
+
+📜 License
+
+This project is open source under the MIT License
+.
+
+👩‍💻 Author
+
+Developed by Laban Kipkoech
+📧 Contact: labankipkoech047@gmail.com

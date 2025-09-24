@@ -1,7 +1,7 @@
 # 🍲 Text2Pot AI
 **Affordable Meal & Diet Suggestions for Better Nutrition**  
 A multipage AI-powered web app that provides **affordable meal and diet suggestions** to improve child and family nutrition using locally available foods in Africa.
-
+Link- https://text2pot.netlify.app/
 ---
 
 ## 🌍 Project Overview

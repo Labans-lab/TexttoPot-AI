@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing | Text2Pot AI</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Text2Pot AI</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="planner.html">Meal Planner</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="pricing">
+      <h2>Support & Premium Plans</h2>
+      <div class="plan">
+        <h3>Free Plan</h3>
+        <p>Basic AI meal suggestions</p>
+      </div>
+      <div class="plan premium">
+        <h3>Premium - $2/month</h3>
+        <p>Get personalized weekly plans & price updates</p>
+        <form id="subscribe-form" style="margin-top:15px;">
+          <label for="payment-method">Choose payment method:</label><br>
+          <select id="payment-method" required>
+            <option value="">--Select--</option>
+            <option value="mpesa">M-Pesa</option>
+            <option value="paypal">PayPal</option>
+            <option value="card">Credit/Debit Card</option>
+          </select><br><br>
+          <div id="payment-details" style="margin-bottom:10px;"></div>
+          <button type="submit">Subscribe</button>
+        </form>
+        <div id="subscribe-message" style="margin-top:10px;"></div>
+      </div>
+      <div class="donate">
+        <h3>Donate</h3>
+        <p>Your support feeds more families</p>
+        <button onclick="alert('Payment Gateway Coming Soon!')">Donate Now</button>
+      </div>
+    </section>
+  </main>
+  <footer>&copy; 2025 Text2Pot AI</footer>
+</body>
+</html>

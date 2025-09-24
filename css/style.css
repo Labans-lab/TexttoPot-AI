@@ -1,0 +1,39 @@
+
+body { font-family: Arial, sans-serif; margin:0; padding:0; }
+header nav { background: #4CAF50; color: rgba(255, 255, 255, 0.826); padding: 10px; display:flex; justify-content:space-between; align-items:center; }
+nav ul { list-style: none; display:flex; gap:15px; margin:0; padding:0; }
+nav a { color:white; text-decoration:none; }
+.hero { text-align:center; padding:50px; background: #f4f4f4; }
+textarea { width:90%; height:80px; margin:10px 0; }
+button { padding:10px 20px; background:#4CAF50; color:white; border:none; cursor:pointer; }
+footer { background:#333; color:white; text-align:center; padding:10px; }
+@media (max-width:768px) {
+  nav ul { flex-direction: column; text-align:center; }
+}
+
+/* Gallery Page Styles */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  margin: 40px 0;
+}
+.gallery img {
+  width: 220px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px #aaa;
+  transition: transform 0.2s;
+}
+.gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
+}
+.gallery-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 30px;
+  font-weight: bold;
+}
